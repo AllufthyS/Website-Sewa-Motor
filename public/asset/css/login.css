@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    background: url("1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.login-form {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+}
+
+.header-login {
+    background-color: #4fbdf1;
+    text-align: center;
+    color: white;
+    padding: 15px 0;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    box-shadow: -3px 0 5px rgb(0, 0, 0, 0.5);
+}
+
+.header-login a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.header-login a:hover {
+    color: #3081ed;
+}
+
+.main-login {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255, 0.5);
+    padding: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: -3px 2px 5px rgb(0, 0, 0, 0.5);
+    height:250px;
+}
+
+.judul-login {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.form-login {
+    display: flex;
+    justify-content: center;
+}
+
+.form-control {
+    width: 200px;
+    text-align: center;
+    padding: 5px 0;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+}
+
+.btn-login {
+    background-color: #4ab6f0;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    padding: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-login:hover {
+    background-color: #2f81ed;
+}
+
+/* Register */
+.register-form {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+}
+
+.header-register {
+    background-color: #4fbdf1;
+    text-align: center;
+    color: white;
+    padding: 15px 0;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    box-shadow: -3px 0 5px rgb(0, 0, 0, 0.5);
+}
+
+.header-register a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.header-register a:hover {
+    color: #3081ed;
+}
+
+.main-register {
+    background-color: rgb(255, 255, 255, 0.5);
+    padding: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: -3px 2px 5px rgb(0, 0, 0, 0.5);
+}
+
+.judul-register {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.main-form-register {
+    width: 60%;
+    margin: auto;
+}
+
+.form-register {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form-group {
+    margin: 10px 20px 0 20px;
+}
+
+.form-register .form-control {
+    margin-top: 10px;
+    width: 250px;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.btn-register {
+    background-color: #4ab6f0;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    padding: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-register:hover {
+    background-color: #2f81ed;
+}
+/* Register END */
